@@ -1,21 +1,23 @@
-/* Reset basic styling */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* General body styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #000; /* Black background */
-    color: #fff; /* White text color */
     line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-/* Header styling */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
 header {
-    background-color: #333; /* Dark gray background */
+    background-color: #4CAF50;
     color: white;
     padding: 50px 0;
     text-align: center;
@@ -23,124 +25,34 @@ header {
 
 header h1 {
     font-size: 3rem;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 header p {
     font-size: 1.2rem;
-    max-width: 800px;
-    margin: 0 auto;
 }
 
-/* Section container for consistent spacing */
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-/* Section padding */
 section {
-    padding: 60px 0;
+    padding: 40px 0;
 }
 
-/* About Us Section */
-#about {
-    background-color: #222; /* Slightly darker background */
-}
-
-#about h2 {
-    font-size: 2.5rem;
+section h2 {
+    font-size: 2rem;
     margin-bottom: 20px;
-    color: #f1f1f1;
-    text-align: center;
+    color: #4CAF50;
 }
 
-#about p {
-    font-size: 1.1rem;
-    color: #ddd;
-    line-height: 1.6;
-    text-align: center;
+ul {
+    list-style: none;
 }
 
-/* What We Do Section */
-#what-we-do {
-    background-color: #333;
-}
-
-#what-we-do h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    color: #f1f1f1;
-    text-align: center;
-}
-
-#what-we-do ul {
-    list-style-type: none;
-    padding-left: 0;
-    text-align: center;
-}
-
-#what-we-do li {
-    font-size: 1.1rem;
+ul li {
     margin: 15px 0;
-    color: #ddd;
-}
-
-#what-we-do strong {
-    font-weight: bold;
-}
-
-/* Why Choose Us Section */
-#why-choose-us {
-    background-color: #222;
-}
-
-#why-choose-us h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    color: #f1f1f1;
-    text-align: center;
-}
-
-#why-choose-us ul {
-    list-style-type: none;
-    padding-left: 0;
-    text-align: center;
-}
-
-#why-choose-us li {
     font-size: 1.1rem;
-    margin: 15px 0;
-    color: #ddd;
 }
 
-#why-choose-us strong {
-    font-weight: bold;
-}
-
-/* Our Vision Section */
-#vision {
-    background-color: #333;
-}
-
-#vision h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    color: #f1f1f1;
-    text-align: center;
-}
-
-#vision p {
-    font-size: 1.1rem;
-    line-height: 1.6;
-    color: #ddd;
-    text-align: center;
-}
-
-/* Footer styling */
 footer {
-    background-color: #222;
+    background-color: #333;
     color: white;
     padding: 20px 0;
     text-align: center;
