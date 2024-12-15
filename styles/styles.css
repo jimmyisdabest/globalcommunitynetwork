@@ -1,4 +1,4 @@
-/* Reset basic styling */
+/* Reset some basic styling */
 * {
     margin: 0;
     padding: 0;
@@ -9,58 +9,49 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #000; /* Black background */
-    color: #fff; /* White text color */
+    color: #fff; /* White text */
     line-height: 1.6;
 }
 
 /* Header styling */
 header {
-    background-color: #333; /* Dark gray background */
-    color: white;
-    padding: 50px 0;
     text-align: center;
+    background-color: #333; /* Dark background */
+    padding: 50px 20px;
 }
 
 header h1 {
     font-size: 3rem;
-    margin-bottom: 20px;
+    color: white;
 }
 
 header p {
     font-size: 1.2rem;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 
-/* Section container for consistent spacing */
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-/* Section padding */
+/* Section styling */
 section {
-    padding: 60px 0;
+    padding: 60px 20px;
+    text-align: center;
 }
 
-/* About Us Section */
+/* About Section */
 #about {
-    background-color: #222; /* Slightly darker background */
+    background-color: #222;
 }
 
 #about h2 {
     font-size: 2.5rem;
+    color: #fff;
     margin-bottom: 20px;
-    color: #f1f1f1;
-    text-align: center;
 }
 
 #about p {
-    font-size: 1.1rem;
     color: #ddd;
+    font-size: 1.1rem;
     line-height: 1.6;
-    text-align: center;
 }
 
 /* What We Do Section */
@@ -70,21 +61,19 @@ section {
 
 #what-we-do h2 {
     font-size: 2.5rem;
+    color: #fff;
     margin-bottom: 20px;
-    color: #f1f1f1;
-    text-align: center;
 }
 
 #what-we-do ul {
     list-style-type: none;
-    padding-left: 0;
-    text-align: center;
+    padding: 0;
 }
 
 #what-we-do li {
     font-size: 1.1rem;
-    margin: 15px 0;
     color: #ddd;
+    margin: 10px 0;
 }
 
 #what-we-do strong {
@@ -98,47 +87,43 @@ section {
 
 #why-choose-us h2 {
     font-size: 2.5rem;
+    color: #fff;
     margin-bottom: 20px;
-    color: #f1f1f1;
-    text-align: center;
 }
 
 #why-choose-us ul {
     list-style-type: none;
-    padding-left: 0;
-    text-align: center;
+    padding: 0;
 }
 
 #why-choose-us li {
     font-size: 1.1rem;
-    margin: 15px 0;
     color: #ddd;
+    margin: 10px 0;
 }
 
 #why-choose-us strong {
     font-weight: bold;
 }
 
-/* Our Vision Section */
+/* Vision Section */
 #vision {
     background-color: #333;
 }
 
 #vision h2 {
     font-size: 2.5rem;
+    color: #fff;
     margin-bottom: 20px;
-    color: #f1f1f1;
-    text-align: center;
 }
 
 #vision p {
     font-size: 1.1rem;
-    line-height: 1.6;
     color: #ddd;
-    text-align: center;
+    line-height: 1.6;
 }
 
-/* Footer styling */
+/* Footer Styling */
 footer {
     background-color: #222;
     color: white;
