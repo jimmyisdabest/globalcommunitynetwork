@@ -1,123 +1,63 @@
-/* General Styles */
-body {
-    font-family: 'Arial', sans-serif;
+* {
     margin: 0;
     padding: 0;
-    color: #333;
-    background-color: #f4f4f4;
+    box-sizing: border-box;
 }
 
-/* Header Section */
-.hero-container {
-    background-color: #2c3e50;
-    padding: 100px 20px;
-    text-align: center;
-}
-
-.hero-text h1 {
-    font-size: 3.5em;
-    color: white;
-    margin: 0;
-}
-
-.hero-text p {
-    font-size: 1.5em;
-    color: #ecf0f1;
-    margin-top: 20px;
-}
-
-/* About Section */
-.section-padding {
-    padding: 60px 20px;
-    background-color: #ffffff;
-}
-
-.about-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.text-container h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-    color: #2c3e50;
-}
-
-.text-container p {
-    font-size: 1.2em;
+body {
+    font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #7f8c8d;
-    max-width: 800px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
     margin: 0 auto;
 }
 
-/* Key Features Section */
-.features-list {
-    list-style-type: none;
-    padding-left: 0;
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 50px 0;
     text-align: center;
 }
 
-.features-list li {
-    margin: 25px 0;
-    font-size: 1.2em;
-    color: #34495e;
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
 }
 
-.features-list li strong {
-    color: #2980b9;
+header p {
+    font-size: 1.2rem;
 }
 
-/* Call to Action Button */
-.cta-button {
-    display: inline-block;
-    background-color: #3498db;
-    color: white;
-    padding: 15px 30px;
-    text-decoration: none;
-    font-size: 1.2em;
-    border-radius: 5px;
-    margin-top: 20px;
+section {
+    padding: 40px 0;
 }
 
-.cta-button:hover {
-    background-color: #2980b9;
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #4CAF50;
 }
 
-/* Footer */
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin: 15px 0;
+    font-size: 1.1rem;
+}
+
 footer {
-    text-align: center;
-    background-color: #2c3e50;
+    background-color: #333;
     color: white;
-    padding: 20px;
-    font-size: 1em;
+    padding: 20px 0;
+    text-align: center;
 }
 
-/* Responsive Styles */
-@media (max-width: 768px) {
-    .hero-text h1 {
-        font-size: 2.5em;
-    }
-
-    .hero-text p {
-        font-size: 1.2em;
-    }
-
-    .about-container {
-        padding: 20px;
-    }
-
-    .text-container h2 {
-        font-size: 2em;
-    }
-
-    .features-list li {
-        font-size: 1em;
-    }
-
-    .cta-button {
-        font-size: 1em;
-        padding: 12px 25px;
-    }
+footer p {
+    font-size: 1rem;
 }
