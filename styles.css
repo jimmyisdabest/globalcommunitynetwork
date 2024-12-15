@@ -1,63 +1,120 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
     background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
     color: #333;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
-header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 50px 0;
+/* Header Section */
+.hero-container {
+    position: relative;
     text-align: center;
+    max-width: 100%;
 }
 
-header h1 {
-    font-size: 3rem;
-    margin-bottom: 10px;
+.hero-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 600px;
 }
 
-header p {
-    font-size: 1.2rem;
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
 
-section {
-    padding: 40px 0;
+.hero-text h1 {
+    font-size: 3em;
+    margin: 0;
 }
 
-section h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    color: #4CAF50;
+.hero-text p {
+    font-size: 1.2em;
 }
 
-ul {
-    list-style: none;
+/* About Section */
+.section-padding {
+    padding: 40px 20px;
 }
 
-ul li {
-    margin: 15px 0;
-    font-size: 1.1rem;
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
+.text-container {
+    width: 45%;
+    padding-right: 20px;
+}
+
+.content-image {
+    width: 45%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Key Features Section */
+.features-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.features-list li {
+    margin: 20px 0;
+    font-size: 1.2em;
+}
+
+/* Call to Action Button */
+.cta-button {
+    display: inline-block;
+    background-color: #3e3e3e;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color: #2c2c2c;
+}
+
+/* Footer */
 footer {
-    background-color: #333;
-    color: white;
-    padding: 20px 0;
     text-align: center;
+    background-color: #3e3e3e;
+    color: white;
+    padding: 20px;
 }
 
-footer p {
-    font-size: 1rem;
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hero-text h1 {
+        font-size: 2.5em;
+    }
+
+    .content-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content-image {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .text-container {
+        width: 100%;
+        padding-right: 0;
+    }
 }
