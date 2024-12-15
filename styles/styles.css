@@ -1,4 +1,4 @@
-/* Reset some basic styling */
+/* Reset basic styling */
 * {
     margin: 0;
     padding: 0;
@@ -8,22 +8,22 @@
 /* General body styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #000; /* Set body background to black */
-    color: #fff; /* Set text color to white for contrast */
+    background-color: #000; /* Black background */
+    color: #fff; /* White text color */
     line-height: 1.6;
 }
 
 /* Header styling */
 header {
-    background-color: #333; /* Dark gray background for header */
+    background-color: #333; /* Dark gray background */
     color: white;
-    padding: 40px 0;
+    padding: 50px 0;
     text-align: center;
 }
 
 header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
+    font-size: 3rem;
+    margin-bottom: 20px;
 }
 
 header p {
@@ -39,41 +39,52 @@ header p {
     margin: 0 auto;
 }
 
+/* Section padding */
+section {
+    padding: 60px 0;
+}
+
 /* About Us Section */
 #about {
-    padding: 60px 0;
-    background-color: #222; /* Dark gray background for about section */
+    background-color: #222; /* Slightly darker background */
 }
 
 #about h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 20px;
+    color: #f1f1f1;
+    text-align: center;
 }
 
 #about p {
-    font-size: 1rem;
+    font-size: 1.1rem;
+    color: #ddd;
     line-height: 1.6;
+    text-align: center;
 }
 
 /* What We Do Section */
 #what-we-do {
-    padding: 60px 0;
-    background-color: #444; /* Darker background for "What We Do" section */
+    background-color: #333;
 }
 
 #what-we-do h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 20px;
+    color: #f1f1f1;
+    text-align: center;
 }
 
 #what-we-do ul {
     list-style-type: none;
     padding-left: 0;
+    text-align: center;
 }
 
 #what-we-do li {
     font-size: 1.1rem;
-    margin: 10px 0;
+    margin: 15px 0;
+    color: #ddd;
 }
 
 #what-we-do strong {
@@ -82,23 +93,26 @@ header p {
 
 /* Why Choose Us Section */
 #why-choose-us {
-    padding: 60px 0;
-    background-color: #222; /* Dark gray background for "Why Choose Us" section */
+    background-color: #222;
 }
 
 #why-choose-us h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 20px;
+    color: #f1f1f1;
+    text-align: center;
 }
 
 #why-choose-us ul {
     list-style-type: none;
     padding-left: 0;
+    text-align: center;
 }
 
 #why-choose-us li {
     font-size: 1.1rem;
-    margin: 10px 0;
+    margin: 15px 0;
+    color: #ddd;
 }
 
 #why-choose-us strong {
@@ -107,23 +121,26 @@ header p {
 
 /* Our Vision Section */
 #vision {
-    padding: 60px 0;
-    background-color: #444; /* Darker background for "Our Vision" section */
+    background-color: #333;
 }
 
 #vision h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 20px;
+    color: #f1f1f1;
+    text-align: center;
 }
 
 #vision p {
     font-size: 1.1rem;
     line-height: 1.6;
+    color: #ddd;
+    text-align: center;
 }
 
 /* Footer styling */
 footer {
-    background-color: #333; /* Dark gray background for footer */
+    background-color: #222;
     color: white;
     padding: 20px 0;
     text-align: center;
